@@ -3,7 +3,7 @@ This example shows how to find the potential data races in the application code 
 
 We define the potential data race pair as follow:
 1. Two field-write statements "b1.f = a1" and "b2.f = a2" s.t. mayAlias(b1, b2).
-2. Onw field-read statement "a1 = b1.f" and one field-write statement "b2.f = a2" s.t. mayAlias(b1, b2).
+2. One field-read statement "a1 = b1.f" and one field-write statement "b2.f = a2" s.t. mayAlias(b1, b2).
 
 ## Build from the command line
 
